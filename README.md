@@ -52,7 +52,7 @@ As an admin user I can view all orders that should be shipped today.
 
 List all items you should ship today, also give the address where they should be shipped to. Per item group on one order you can have a different shipping date, but all items are shipped to the same address.
 
-#Story 9
+## Story 9
 As an admin user I want to have a calculated max stock of an item.
 
 Calculate the max stock of an item, this is determined by the percentage of items ordered in the previous week. You should have at least 3 categories:
