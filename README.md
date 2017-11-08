@@ -1,6 +1,9 @@
 # Orders
 No security needed, if you really want to implement it take a look on Spring security.
 
+# Proxy check
+After every story, make sure to let your proxy validate it
+
 ## Story 1
 As an unregistered user I can create a customer account.
 
@@ -12,7 +15,7 @@ Create a customer with:
 * Phonenumber
 
 ## Story 2
-As a customer I can Order an item.
+As a customer I can Order one or more items.
 
 An item group has an amount and a shipping date. This should be calculated automatically. When we have the items in stock this should be tomorrow otherwise this should be next week.
 
