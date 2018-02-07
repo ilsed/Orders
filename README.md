@@ -1,4 +1,4 @@
-### Security
+# Security
 Implement security. The customers login using their emailaddress and password. The administrator have a username and password (these can be hardcoded in the application).
 
 ## Story 1
