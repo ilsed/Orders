@@ -1,6 +1,4 @@
-# Security
-Implement security. The customers login using their emailaddress and password. The administrator have a username and password (these can be hardcoded in the application).
-
+# Stories
 ## Story 1
 As an unregistered user I can create a customer account.
 
@@ -57,3 +55,10 @@ As an admin user I can view all orders of a customer
 
 List for all the previous orders by customer id.
 Also give the price for each order that they placed.
+
+# Non-functional requirements
+## Security
+Implement security. The customers login using their emailaddress and password. The administrator have a username and password (these can be hardcoded in the application).
+
+## Database
+The data of the application should be preserved after rebooting the application.
