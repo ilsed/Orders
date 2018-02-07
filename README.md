@@ -46,9 +46,7 @@ Look for the previous orders by customer id.
 All information is shown in the orders.
 
 ## Story 7
-As an administrator I can update the price of an individual item.
-
-Make sure you can reorder an order with an id.
+As an administrator I can update all the fields of an individual item.
 
 ## Story 8
 As an administrator user I can view all customers.
@@ -62,9 +60,10 @@ List for all the previous orders by customer id.
 Also give the price for each order that they placed.
 
 ## Story 10
-As a customer I can view the number of items in stock.
+As a administrator I can view the number of items in stock.
 
 Keep track of the number of items in stock.
+The stock of existing items is 0.
 
 ## Story 11
 As a customer I can see the shipping date of an order.
@@ -80,20 +79,20 @@ List all items you should ship today, also give the address where they should be
 As an administrator I want to have a stock status per item.
 
 The statusses are:
-* Low
-* Medium
-* High
+* Low (<=30%)
+* Medium (>30% & < 60%)
+* High (>=60%)
 
-The stock status per item is determined by the percentage of items ordered in the previous week. You should have at least 3 categories:
+The stock status per item is determined by the percentage of items ordered in the previous week.
 
 ## Story 14
 As an administrator I can view all items that are low in stock.
 
-List all orders that have status Low in stock.
+List all items that have status Low in stock.
 
 # Non-functional requirements
 ## Security
-Implement security. The customers login using their emailaddress and password. The administrator have a username and password (these can be hardcoded in the application).
+Implement security. The customers login using their emailaddress and password. The administrator has a username and password (can be hardcoded in the application).
 
 ## Database
 The data of the application should be preserved after rebooting the application.
